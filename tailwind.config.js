@@ -15,7 +15,14 @@ module.exports = {
         foreground: 'rgb(var(--foreground))',
         muted: 'rgb(var(--muted))',
         accent: 'rgb(var(--accent))'
-      }
+      },
+      boxShadow:{
+          'glass-inset': 'inset 0 17px 5px -9px rgb(254,254,0.05)',
+          'glass-sm': '5px 5px 20px 0px rgb(254,254,0.3)',
+      },
+     animation:{
+      'spin-slow':'spin 40s linear infinite'
+     }
     },
   },
   plugins: [],
