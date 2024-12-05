@@ -46,7 +46,7 @@ const NavButton = ({ x, y, label, link,icon, newTab }) => {
           </span></span>
 
         
-          </Link> 
+          </Link>
     </div> 
   );
 };

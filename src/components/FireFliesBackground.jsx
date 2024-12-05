@@ -15,7 +15,7 @@ const FireFliesBackground = () => {
     const addFireflyPeriodically = () => {
       const newFireFly = createFirefly();
       setFireflies((currentFireflies) => [
-        ...currentFireflies.slice(-20),
+        ...currentFireflies.slice(-100),
         newFireFly,
       ]);
     };

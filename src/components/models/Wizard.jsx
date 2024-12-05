@@ -14,10 +14,12 @@ export default function Wizard(props) {
   useFrame((state, delta, xrFrame) => {
     // This function runs at the native refresh rate inside of a shared render-loop
     modelRef.current.position.y = -1.5 + Math.sin(state.clock.elapsedTime) * 0.15
+
+  
   })
 
   return (
-    <group {...props} dispose={null} ref={modelRef} position={[0, -1.5, 0]} scale={[0.06, 0.06, 0.06]} rotation={[0.25,0,0] }>
+    <group {...props} dispose={null} ref={modelRef} position={[0, -1.5, 0]} scale={[0.06, 0.06, 0.06]} rotation={[0.25,0,0]}>
     
       <mesh
         name="Evil_Hathattty_mesh_Evil_HatBLN_Hat_0"
