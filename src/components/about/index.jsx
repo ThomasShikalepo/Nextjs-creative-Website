@@ -1,18 +1,6 @@
-import clsx from "clsx";
 import React from "react";
+import ItemLayout from "./ItemLayout";
 
-const ItemLayout = ({ children, className }) => {
-  return (
-    <div
-      className={clsx(
-        "custom-bg p-6 sm:p-8 rounded-xl flex items-center justify-center space-y-8",
-        className
-      )}
-    >
-      {children}
-    </div>
-  );
-};
 
 const AboutDetails = () => {
   return (
@@ -61,7 +49,7 @@ const AboutDetails = () => {
             className="w-full h-auto"
             src="https://github-readme-stats.vercel.app/api?username=ThomasShikalepo&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FFFFFF&text_bold=false"
             alt="ThomasDeon"
-            loading="lazy"
+            loading="lazy" 
           />
         </ItemLayout>
 
@@ -74,7 +62,7 @@ const AboutDetails = () => {
           />
         </ItemLayout>
 
-        <ItemLayout className={"col-span-full md:col-span-8 col-span-6 !p-0"}>
+        <ItemLayout className={"col-span-full md:col-span-6 col-span-6 !p-0"}>
           <img
             className="w-full h-auto"
             src="https://github-readme-streak-stats.herokuapp.com?user=thomasshikalepo&theme=dark&hide_border=true&background=EB545400&ring=FEFE5B&currStreakNum=FEFE5B"
@@ -83,7 +71,7 @@ const AboutDetails = () => {
           />
         </ItemLayout>
 
-        <ItemLayout className={"col-span-full md:col-span-8 col-span-6 !p-0"}>
+        <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <img
             className="w-full h-auto"
             src="https://github-readme-stats.vercel.app/api/pin/?username=ThomasShikalepo&repo=Nextjs-creative-Website&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FFFFFF&text_bold=false&description_lines_count=2"
