@@ -6,6 +6,7 @@ import NavButton from "./NavButton";
 import useScreenSize from "../hooks/UseScreenSize";
 import ResponsiveComponent from "../ResponsiveComponent";
 import { motion } from "framer-motion";
+import { Link } from "lucide-react";
 
 const container = {
   hidden: { opacity: 0 },
@@ -16,6 +17,15 @@ const container = {
     }
   }
 }
+
+const item ={
+  hidden: {scale: 0},
+  show: {scale: 1}
+  
+} 
+
+const NavLinks = motion(Link)
+
 const Navigation = () => {
   const angleIncrement = 360 / BtnList.length;
 
