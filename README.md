@@ -1,14 +1,5 @@
 #Professional Portfolio | Built with Next.js, Three.js & Tailwind CSS 🔥
 
-
-If you want to learn how to create it please follow below tutorial👇: <br />
-➡ Tutorial Link 💚: [Personal Portfolio Website with Next.js, Three.js & Tailwind CSS Tutorial](https://youtu.be/T5t46vuW8fo) 
-[![YouTube Video Views](https://img.shields.io/youtube/views/T5t46vuW8fo
-)](https://youtu.be/T5t46vuW8fo) <br />
-
-💚 Checkout my personal website [DevDreaming](https://devdreaming.com) <br />
-
----
 # ⭐DO NOT FORGET TO STAR THIS REPO⭐
 ---
 
