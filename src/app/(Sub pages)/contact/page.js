@@ -23,7 +23,7 @@ export default function Contact() {
           </h1>
           <p className="text-center font-light text-lg xs:text-xl">
             Step into the circle of magic and share your message. <br />
-            Whether you're seeking collaboration, answers to mysteries,<br /> or simply wish to connect,
+            Whether you are seeking collaboration, answers to mysteries,<br /> or simply wish to connect,
             your words are treasures in this realm.Use the form below to send your missive, and await a magical reply.
           </p>
         </div>
