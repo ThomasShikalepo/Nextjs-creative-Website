@@ -25,7 +25,7 @@ export default function Contact() {
             Whether you are seeking collaboration, answers to mysteries,<br /> or simply wish to connect,
             your words are treasures in this realm&apos;s Use the form below to send your missive, and await a magical reply.
           </p>
-        </div>
+        </div> 
         <Form />
       </article>
     </main>
