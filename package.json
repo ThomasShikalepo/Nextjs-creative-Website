@@ -1,12 +1,15 @@
 {
-  "name": "nextjs-creative-portfolio-starter-code-files",
+  "homepage": "http://thomasshikalepo.github.io/Nextjs-creative-Website/",
+  "name": "nextjs-creative-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emailjs/browser": "^4.2.0",
