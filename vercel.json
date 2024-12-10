@@ -1,16 +1,5 @@
-{
-    "rewrites": [
-      {
-        "source": "/(.*)",
-        "destination": "/",
-        "has": [
-          {
-            "type": "header",
-            "key": "x-missing-route",
-            "value": "true"
-          }
-        ]
-      }
-    ]
-  }
-  
+{"rewrites":  [
+    {"source": "/(.*)", "destination": "/"}
+]
+
+}
