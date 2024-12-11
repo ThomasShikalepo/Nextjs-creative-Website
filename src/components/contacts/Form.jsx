@@ -118,8 +118,8 @@ export default function Form() {
               message: "Message should be less than 500 characters long",
             },
             minLength: {
-              value: 50,
-              message: "Message should be more than 50 characters long",
+              value: 10,
+              message: "Message should be more than 10 characters long",
             },
           })}
           className="w-full p-2 rounded-md shadow-lg text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 custom-bg"
