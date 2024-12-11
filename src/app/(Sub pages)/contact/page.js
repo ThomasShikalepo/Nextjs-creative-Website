@@ -16,11 +16,11 @@ export default function Contact() {
       />
 
       <article className="relative w-full flex flex-col items-center justify-center py-8 sm:py-0 space-y-8">
-        <div className="flex flex-col items-center justify-center space-y-6 w-full sm:w-3/4">
-          <h1 className="text-accent font-semibold text-center text-5xl capitalize whitespace-nowrap">
+        <div className="flex flex-col items-center justify-center space-y-6 w-full sm:*:w-3/4">
+          <h1 className="text-accent font-semibold text-center text-4xl capitalize">
             Summon the Wizard
           </h1>
-          <p className="text-center font-light text-lg xs:text-xl">
+          <p className="text-center font-light text-sm xs:text-base">
             Step into the circle of magic and share your message. <br />
             Whether you are seeking collaboration, answers to mysteries,<br /> or simply wish to connect,
             your words are treasures in this realm&apos;s Use the form below to send your missive, and await a magical reply.
