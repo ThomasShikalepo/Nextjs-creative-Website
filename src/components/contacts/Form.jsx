@@ -13,16 +13,16 @@ const container = {
     opacity: 1,
     transition: {
       staggerChildren: 0.3,
-      delayChildren: 0.2, 
+      delayChildren: 0.2,
     }
   }
 }
 
-const item ={
-  hidden: {scale: 0},
-  show: {scale: 1}
-  
-} 
+const item = {
+  hidden: { scale: 0 },
+  show: { scale: 1 }
+
+}
 
 export default function Form() {
   const {
@@ -41,9 +41,7 @@ export default function Form() {
         params,
         {
           publicKey: process.env.NEXT_PUBLIC_PUBLIC_KEY,
-          limitRate: {
-            throttle: 5000, //you cant not send more than 1 email per 5 seconds
-          },
+          
         }
       )
       .then(
@@ -85,7 +83,7 @@ export default function Form() {
         className="max-w-md w-full flex flex-col items-center justify-center space-y-4"
       >
         <motion.input
-        variants={item}
+          variants={item}
           type="text"
           placeholder="name"
           {...register("name", {
@@ -101,7 +99,7 @@ export default function Form() {
           <span className="inline-block text-accent">{errors.name.message}</span>
         )}
         <motion.input
-        variants={item}
+          variants={item}
           type="email"
           placeholder="email"
           {...register("email", { required: "Email is required!" })}
@@ -133,7 +131,7 @@ export default function Form() {
         )}
 
         <motion.input
-      variants={item}
+          variants={item}
           value="Send Mystic Message"
           className="px-10 py-4 rounded-md shadow-lg bg-background border border-accent/30 border-solid hover:shadow-glass-sm backdrop-blur-sm text-foreground focus:outline-none 
   focus:ring-2 focus:ring-accent/50 cursor-pointer capitlize"
