@@ -11,10 +11,10 @@ const AboutDetails = () => {
   Thomas Shikalepo
 </h2>
 <p className="font-light text-sm sm:text-base md:text-lg space-y-4">
-  Hello, I’m Thomas Shikalepo, a passionate developer driven by a desire to create impactful, innovative solutions. I thrive on the challenge of solving real-world problems with technology, constantly exploring new tools and techniques to expand my skills and push the boundaries of what's possible.
+  Hello, I&apos;m Thomas Shikalepo, a passionate developer driven by a desire to create impactful, innovative solutions. I thrive on the challenge of solving real-world problems with technology, constantly exploring new tools and techniques to expand my skills and push the boundaries of what's possible.
 </p>
 <p className="font-light text-sm sm:text-base md:text-lg space-y-4">
-  My expertise spans both frontend and backend development, where I focus on building intuitive, secure, and scalable digital experiences. I believe in creating solutions that are not only functional but also user-centered and efficient. With a strong foundation in web technologies such as JavaScript, Java, and Ballerina, I’m constantly refining my approach to building robust platforms.
+  My expertise spans both frontend and backend development, where I focus on building intuitive, secure, and scalable digital experiences. I believe in creating solutions that are not only functional but also user-centered and efficient. With a strong foundation in web technologies such as JavaScript, Java, and Ballerina, I&apos;m constantly refining my approach to building robust platforms.
 </p>
 <p className="font-light text-sm sm:text-base md:text-lg space-y-4">
   I am passionate about collaborating with others, sharing ideas, and learning from diverse perspectives. As I continue to grow in my journey as a developer, I am excited to contribute to projects that drive positive change, enhance social wellbeing, and make a lasting impact.
