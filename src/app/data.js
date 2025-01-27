@@ -116,7 +116,7 @@ export const BtnList = [
   },
   {
     label: "Resume",
-    link: "/myOwnCv.pdf",
+    link: "/Thomas Shikalepo - CV.pdf",
     icon: "resume",
     newTab: true,
   },

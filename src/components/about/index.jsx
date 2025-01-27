@@ -7,21 +7,22 @@ const AboutDetails = () => {
     <section className="py-20 w-full">
       <div className="grid grid-cols-12 gap-4 xs:gap-6 md:gap-8 w-full">
         <ItemLayout className={" col-span-full lg:col-span-8 row-span-2 flex-col items-start"}>
-          <h2 className="text-xl md:text-2xl text-left w-full capitalize">
-            Architect of Enchantment
-          </h2>
-          <p className="font-light text-sm sm:text-base md:text-lg space-y-4">
-            Greetings, traveler! I am Thomas Shikalepo, a student at the University of Science and Technology (NUST). I am passionate about using magic (technology) to solve real-world problems.
-          </p>
-          <p className="font-light text-sm sm:text-base md:text-lg space-y-4">
-            With tools like React and Next.js, I create smooth and powerful digital experiences. Using backend magic like Ballerina, I build fast and secure platforms guided by the principles of Jamstack.
-          </p>
-          <p className="font-light text-sm sm:text-base md:text-lg space-y-4">
-            My projects include crafting hand-tracking game spells, a football analysis tool using Python, and a hospital management system. Each one reflects my love for creativity and innovation.
-          </p>
-          <p className="font-light text-sm sm:text-base md:text-lg space-y-4">
-            Join me on this journey as I learn new skills, create magical solutions, and shape the future of the web!
-          </p>
+        <h2 className="text-xl md:text-2xl text-left w-full capitalize">
+  Thomas Shikalepo
+</h2>
+<p className="font-light text-sm sm:text-base md:text-lg space-y-4">
+  Hello, I’m Thomas Shikalepo, a passionate developer driven by a desire to create impactful, innovative solutions. I thrive on the challenge of solving real-world problems with technology, constantly exploring new tools and techniques to expand my skills and push the boundaries of what's possible.
+</p>
+<p className="font-light text-sm sm:text-base md:text-lg space-y-4">
+  My expertise spans both frontend and backend development, where I focus on building intuitive, secure, and scalable digital experiences. I believe in creating solutions that are not only functional but also user-centered and efficient. With a strong foundation in web technologies such as JavaScript, Java, and Ballerina, I’m constantly refining my approach to building robust platforms.
+</p>
+<p className="font-light text-sm sm:text-base md:text-lg space-y-4">
+  I am passionate about collaborating with others, sharing ideas, and learning from diverse perspectives. As I continue to grow in my journey as a developer, I am excited to contribute to projects that drive positive change, enhance social wellbeing, and make a lasting impact.
+</p>
+<p className="font-light text-sm sm:text-base md:text-lg space-y-4">
+  Join me as I continue exploring the ever-evolving landscape of technology, pushing the limits of creativity and innovation to shape the future of the web.
+</p>
+
 
 
         </ItemLayout>
