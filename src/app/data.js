@@ -18,77 +18,53 @@ Websites:
 
 export const projectsData = [
   {
-    "id": 1,
-    "name": "Immersive 3D Portfolio Experience",
-    "description": "A portfolio website built using Next.js, Three.js, and Tailwind CSS, featuring interactive 3D animations, dynamic GitHub integration, and a responsive design.",
-    "date": "2024-12-12",
-    "demoLink": "https://thomasdeon.netlify.app"
-  }
-  ,
+    id: 1,
+    name: "Distributed Patient Management Microservices System",
+    description:
+      "A healthcare backend built with Java, Spring Boot, PostgreSQL, Docker, Kafka, and gRPC using a microservices architecture. The system includes Patient, Billing, Analytics, and API Gateway services, supporting inter-service communication, event-driven workflows, and scalable backend design.",
+    date: "2026-03-01",
+    demoLink: "https://github.com/ThomasShikalepo",
+  },
   {
     id: 2,
-    name: "Football Match Analysis Using AI and Computer Vision",
-    description: "A system that uses AI and computer vision to analyze football matches by tracking players, referees, and footballs in real-time for performance insights.",
-    date: "2024-11-20",
-    demoLink: "https://artgalleryonline.example.com",
+    name: "AI Route Optimization for Newspaper Distribution",
+    description:
+      "A logistics optimization solution developed for a hackathon using Python, pandas, OR-Tools, and Mapbox APIs. The system cleans and analyzes real vehicle tracking data, extracts delivery stops, builds distance matrices, and generates optimized delivery routes to reduce travel distance, idle time, and fuel usage.",
+    date: "2026-03-15",
+    demoLink: "https://github.com/ThomasShikalepo",
   },
   {
     id: 3,
-    name: "Personal Website",
-    description: "Created a personal website using HTML, CSS, and JavaScript to showcase my skills and projects with a focus on user-friendly design and responsiveness.",
-    date: "2024-12-12",
-    demoLink: "https://thomasshikalepo.netlify.app",
+    name: "Okaluli Admin Dashboard and User Management System",
+    description:
+      "An admin dashboard designed to monitor platform activity, manage users, view chat history, search users by number, and present both live and historical system data. The project focuses on better data visibility, responsive design, and practical admin workflows.",
+    date: "2026-03-20",
+    demoLink: "https://github.com/ThomasShikalepo/okaluli_online_version",
   },
   {
     id: 4,
-    name: "Hand Distance Measurement with Normal Webcam - Game",
-    description: "A fun game using Python and OpenCV to track hand movement and measure the distance to a target circle on the screen. Players earn points by moving their hand close to the target within a time limit.",
-    date: "2024-11-03",
-    demoLink: "https://github.com/ThomasShikalepo/hand-distance-game.git",
+    name: "Immersive 3D Developer Portfolio",
+    description:
+      "A modern portfolio website built with Next.js, Three.js, Tailwind CSS, and interactive 3D elements to showcase projects, skills, and developer identity. The site focuses on immersive presentation, responsive design, and strong visual storytelling.",
+    date: "2026-03-10",
+    demoLink: "https://thomasdeon.netlify.app",
   },
   {
-    "id": 5,
-    "name": "Micrograd Implementation and Development",
-    "description": "Implemented a lightweight autodiff engine to simulate neural network operations with forward and backward propagation.",
-    "date": "2024-1-22",
-    "demoLink": "https://github.com/ThomasShikalepo/Micrograd.git"
+    id: 5,
+    name: "Local AI Voice Assistant",
+    description:
+      "A desktop-based AI assistant project built to explore local LLMs, speech workflows, and voice interaction. The system integrates model inference, speech output, and assistant-style interaction while experimenting with practical offline AI on limited hardware.",
+    date: "2026-03-19",
+    demoLink: "https://github.com/ThomasShikalepo",
   },
-
-  // {
-  //   id: 6,
-  //   name: "JourneyLogger",
-  //   description: "Log your travels",
-  //   date: "2022-10-01",
-  //   demoLink: "https://journeylogger.example.com",
-  // },
-  // {
-  //   id: 7,
-  //   name: "StudyBuddy",
-  //   description: "Collaborative learning platform",
-  //   date: "2022-04-18",
-  //   demoLink: "https://studybuddy.example.com",
-  // },
-  // {
-  //   id: 8,
-  //   name: "TechTalk",
-  //   description: "Tech news aggregator",
-  //   date: "2022-11-05",
-  //   demoLink: "https://techtalk.example.com",
-  // },
-  // {
-  //   id: 9,
-  //   name: "FitTrack",
-  //   description: "Fitness and workout tracker",
-  //   date: "2022-03-22",
-  //   demoLink: "https://fittrack.example.com",
-  // },
-  // {
-  //   id: 10,
-  //   name: "MindfulMoments",
-  //   description: "Meditation and mindfulness app",
-  //   date: "2022-02-14",
-  //   demoLink: "https://mindfulmoments.example.com",
-  // },
+  {
+    id: 6,
+    name: "Football Match Analysis Using AI and Computer Vision",
+    description:
+      "A computer vision project for analyzing football matches by detecting and tracking players, referees, and the ball to generate match insights. The project applies AI techniques to sports analysis and performance observation.",
+    date: "2025-11-20",
+    demoLink: "https://github.com/ThomasShikalepo",
+  },
 ];
 
 export const BtnList = [
