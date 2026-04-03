@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import ItemLayout from "./ItemLayout";
 
 const AboutDetails = () => {
@@ -62,24 +62,63 @@ const AboutDetails = () => {
           </p>
         </ItemLayout>
 
-        <ItemLayout
-          className={" col-span-full sm:col-span-6 md:col-span-4 !p-0"}
-        >
-          <img
-            className="w-full h-auto"
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=ThomasShikalepo&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FFFFFF&text_bold=false"
-            alt="ThomasDeon"
-            loading="lazy"
-          />
+        <ItemLayout className={"col-span-full sm:col-span-6 md:col-span-6 flex-col items-start gap-3"}>
+          <p className="text-accent font-semibold text-lg md:text-xl capitalize">Top Languages</p>
+          <div className="flex flex-col gap-3 w-full">
+            {[
+              { lang: "JavaScript", pct: 40, color: "#FEFE5B" },
+              { lang: "Java", pct: 22, color: "#f89820" },
+              { lang: "Python", pct: 18, color: "#3572A5" },
+              { lang: "Kotlin", pct: 12, color: "#7F52FF" },
+              { lang: "T-SQL", pct: 8, color: "#e34c26" },
+            ].map(({ lang, pct, color }) => (
+              <div key={lang} className="w-full">
+                <div className="flex justify-between text-sm md:text-base text-white/90 font-medium mb-1">
+                  <span>{lang}</span>
+                  <span>{pct}%</span>
+                </div>
+                <div className="w-full h-2 rounded-full bg-white/10">
+                  <div
+                    className="h-2 rounded-full"
+                    style={{ width: `${pct}%`, backgroundColor: color }}
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
         </ItemLayout>
 
-        <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
-          <img
-            className="w-full h-auto min-h-[200px] object-contain"
-            src="https://github-readme-stats.vercel.app/api?username=ThomasShikalepo&show_icons=true&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&cache_seconds=86400"
-            alt="Thomas Deon GitHub Stats"
-            loading="lazy"
-          />
+        <ItemLayout className={"col-span-full md:col-span-6 !p-4 flex-col items-start gap-3"}>
+          <p className="text-accent font-semibold text-lg md:text-xl capitalize">GitHub Activity</p>
+          <div className="flex w-full justify-around items-center pt-2">
+            {[
+              { label: "Repos", value: 23, max: 50, display: "23" },
+              { label: "Contributions", value: 397, max: 500, display: "397" },
+            ].map(({ label, value, max, display }) => {
+              const r = 20;
+              const circ = 2 * Math.PI * r;
+              const offset = circ - (value / max) * circ;
+              return (
+                <div key={label} className="flex flex-col items-center gap-1">
+                  <svg width="54" height="54" viewBox="0 0 54 54">
+                    <circle cx="27" cy="27" r={r} fill="none" stroke="rgba(255,255,255,0.08)" strokeWidth="4" />
+                    <circle
+                      cx="27" cy="27" r={r}
+                      fill="none"
+                      stroke="#FEFE5B"
+                      strokeWidth="4"
+                      strokeLinecap="round"
+                      strokeDasharray={circ}
+                      strokeDashoffset={offset}
+                      transform="rotate(-90 27 27)"
+                    />
+                    <text x="27" y="32" textAnchor="middle" fill="#FEFE5B" fontSize="15" fontWeight="bold">{display}</text>
+                  </svg>
+                  <span className="text-white/70 text-sm md:text-base font-medium tracking-wide mt-1">{label}</span>
+                </div>
+              );
+            })}
+          </div>
         </ItemLayout>
 
         <ItemLayout className={"col-span-full "}>

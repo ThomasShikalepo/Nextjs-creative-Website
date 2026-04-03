@@ -18,14 +18,24 @@ const ProjectsLayout = ({ name, description, date, demoLink }) => {
         href={demoLink}
         target={'_blank'}
         className=' text-sm md:text-base flex items-center justify-between w-full relative rounded-lg overflow-hidden p-4 md:p-6 custom-bg'>
-            <div className='flex items-center justify-center space-x-2'>
-                <h2 className='text-foreground'>{name}</h2>
-                <p className='text-muted hidden sm:inline-block'>{description}</p>
+            <div className="grid grid-cols-1 sm:grid-cols-12 gap-2 sm:gap-6 w-full items-center">
+                {/* Project Name - 3 columns */}
+                <div className="col-span-1 sm:col-span-3">
+                    <h2 className='text-accent font-semibold text-base md:text-lg capitalize'>{name}</h2>
+                </div>
+                
+                {/* Description - 7 columns */}
+                <div className="col-span-1 sm:col-span-7">
+                    <p className='text-white/70 hidden sm:block text-sm leading-relaxed'>{description}</p>
+                </div>
+                
+                {/* Date - 2 columns */}
+                <div className="col-span-1 sm:col-span-2 text-left sm:text-right">
+                    <p className='text-white/50 sm:text-accent font-medium text-sm whitespace-nowrap'>
+                        {new Date(date).toDateString()}
+                    </p>
+                </div>
             </div>
-            <div className='self-end flex-1 mx-2 mb-1 bg-transparent border-b border-dashed border-muted' />
-            <p className='text-muted sm:text-foreground'>
-                {new Date(date).toDateString()}
-            </p>
         </NavLinks>
     )
 }
